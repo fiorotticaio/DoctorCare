@@ -1,9 +1,25 @@
+window.addEventListener('scroll', onScroll);
+
+onScroll();
 function onScroll() {    
+    showNavOnScroll();
+    showBackToTopButtonOnScroll();
+}
+
+function showNavOnScroll() {
     if (scrollY > 0) {
-    /* "navigation" é o objeto que tem o id "navigation" */
+        /* "navigation" é o objeto que tem o id "navigation" */
         navigation.classList.add('scroll');
     } else {
         navigation.classList.remove('scroll');
+    }
+}
+
+function showBackToTopButtonOnScroll() {
+    if (scrollY > 550) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
     }
 }
 
@@ -29,4 +45,6 @@ ScrollReveal({
     #services .card,
     #about,
     #about header,
-    #about .content`);
+    #about .content,
+    #contact header,
+    #contact .content`);
