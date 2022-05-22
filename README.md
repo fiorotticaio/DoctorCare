@@ -5,5 +5,3 @@
 <h1 align="center">
     <img src="./assets/home.png" alt="home screen">
 </h1>
-
-<h4 align="center">🚧 Project under constructoin 🚧</h4>
