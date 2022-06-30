@@ -1,6 +1,6 @@
 # DoctorCare
 
-> Next Level Week (Rocketseat) project
+> Next Level Week (Rocketseat) project <br>
 > Try yourself: https://fiorotticaio.github.io/DoctorCare/ 
 
 <h1 align="center">
