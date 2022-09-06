@@ -7,11 +7,12 @@ function onScroll() {
 }
 
 function showNavOnScroll() {
+    const nav = document.querySelector('#navigation');
     if (scrollY > 0) {
         /* "navigation" é o objeto que tem o id "navigation" */
-        navigation.classList.add('scroll');
+        nav.classList.add('scroll');
     } else {
-        navigation.classList.remove('scroll');
+        nav.classList.remove('scroll');
     }
 }
 
